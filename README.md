@@ -1,7 +1,8 @@
 ## server boilerplate
 
 # things to do before starting:
-1. Update `.env` variables
+1. ADD `DB_CONN_URI` in `.env`
+2. ADD `PORT` to change default port from 3000
 3. Change jwt secret in `helper.js`
 4. Complete the TODOs in `app.js`
 
