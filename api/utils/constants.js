@@ -55,7 +55,7 @@ module.exports.USER_ROLES = {
 module.exports.EMAIL = {
     CHANGE_PASSWORD_EMAIL: (token) => {
         return {
-            subject: "Pickngo - Change Password",
+            subject: "server-backend-boilerplate - Change Password",
             html: require("./email_templates/change_password.email").default(token)
         }
     }
