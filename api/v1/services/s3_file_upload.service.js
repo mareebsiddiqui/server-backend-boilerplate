@@ -1,5 +1,5 @@
-const { TE, get_file_buffer } = require("../utils/helpers");
-const { S3Object, upload_to_s3 } = require("../utils/s3.init");
+const { TE, get_file_buffer } = require("../../utils/helpers");
+const { S3Object, upload_to_s3 } = require("../../utils/s3.init");
 
 class S3FileUploadService {
   async upload_file(key, file) {
